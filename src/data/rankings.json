@@ -1,5 +1,17 @@
 [
-  { "id": "rank-1", "category": "综合评价TOP10", "doctorIds": ["d019", "d003", "d006", "d013", "d001", "d010", "d014", "d017", "d007", "d008"] },
-  { "id": "rank-2", "category": "耐心亲和TOP10", "doctorIds": ["d006", "d017", "d007", "d020", "d012", "d002", "d004", "d009", "d013", "d019"] },
-  { "id": "rank-3", "category": "评价最多TOP10", "doctorIds": ["d006", "d013", "d019", "d003", "d007", "d017", "d010", "d001", "d016", "d014"] }
+  {
+    "id": "rank-overall",
+    "category": "北京综合实力TOP10",
+    "hospitalIds": ["hosp-01", "hosp-13", "hosp-02", "hosp-03", "hosp-05", "hosp-12", "hosp-14", "hosp-08", "hosp-04", "hosp-11"]
+  },
+  {
+    "id": "rank-cardio",
+    "category": "心脑血管专科TOP10",
+    "hospitalIds": ["hosp-01", "hosp-03", "hosp-05", "hosp-12", "hosp-02", "hosp-07", "hosp-06", "hosp-10", "hosp-04", "hosp-08"]
+  },
+  {
+    "id": "rank-oncology",
+    "category": "肿瘤专科TOP10",
+    "hospitalIds": ["hosp-13", "hosp-01", "hosp-14", "hosp-02", "hosp-04", "hosp-12", "hosp-10", "hosp-06", "hosp-07", "hosp-08"]
+  }
 ]
