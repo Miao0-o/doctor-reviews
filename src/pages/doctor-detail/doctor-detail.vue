@@ -6,7 +6,8 @@
         <text class="header-avatar-text">{{ doctor.name[0] }}</text>
       </view>
       <text class="header-name">{{ doctor.name }}</text>
-      <text class="header-sub">{{ doctor.title }} · {{ doctor.hospital }}</text>
+      <text class="header-sub" @tap="goHospital">{{ doctor.title }} · {{ hospitalName }} ›</text>
+      <text class="header-sub" v-if="departmentName">{{ departmentName }}</text>
       <text class="header-bio">{{ doctor.bio }}</text>
     </view>
 
@@ -65,6 +66,8 @@ import { ref, computed } from 'vue'
 import { onLoad } from '@dcloudio/uni-app'
 import doctors from '@/data/doctors.json'
 import reviews from '@/data/reviews.json'
+import hospitals from '@/data/hospitals.json'
+import hospitalDepartmentsData from '@/data/hospital-departments.json'
 import { isFavorite, addFavorite, removeFavorite, getUserReviews } from '@/utils/storage.js'
 
 const doctor = ref(null)
@@ -77,6 +80,21 @@ const reviewFilters = [
   { label: '中评', value: 'neutral' },
   { label: '差评', value: 'negative' }
 ]
+
+// Flatten all hospital departments into a single lookup array
+const allHospitalDepartments = hospitalDepartmentsData.flatMap(h => h.departments)
+
+const hospitalName = computed(() => {
+  if (!doctor.value) return ''
+  const hosp = hospitals.find(h => h.id === doctor.value.hospitalId)
+  return hosp ? hosp.name : ''
+})
+
+const departmentName = computed(() => {
+  if (!doctor.value) return ''
+  const hd = allHospitalDepartments.find(d => d.id === doctor.value.hospitalDepartmentId)
+  return hd ? hd.departmentName : ''
+})
 
 onLoad((options) => {
   const id = options?.id
@@ -98,6 +116,11 @@ const filteredReviews = computed(() => {
   if (reviewFilter.value === 'all') return allReviews.value
   return allReviews.value.filter(r => r.sentiment === reviewFilter.value)
 })
+
+function goHospital() {
+  if (!doctor.value) return
+  uni.navigateTo({ url: `/pages/hospital-department/hospital-department?hospitalId=${doctor.value.hospitalId}` })
+}
 
 function toggleFav() {
   if (!doctor.value) return
