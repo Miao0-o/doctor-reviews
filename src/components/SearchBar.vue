@@ -7,7 +7,7 @@
 
 <script setup>
 defineProps({
-  placeholder: { type: String, default: '搜索医生姓名/科室' }
+  placeholder: { type: String, default: '搜索疾病/医院/科室' }
 })
 defineEmits(['tap'])
 </script>
