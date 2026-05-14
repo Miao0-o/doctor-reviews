@@ -3,16 +3,23 @@
     "hospitalId": "hosp-01",
     "departments": [
       { "id": "hd-001", "departmentName": "心血管内科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
-      { "id": "hd-002", "departmentName": "呼吸内科", "rankInCity": 2, "badge": "北京第2名", "isNationalKey": true, "isCityKey": false },
       { "id": "hd-003", "departmentName": "消化内科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
       { "id": "hd-004", "departmentName": "妇产科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
-      { "id": "hd-005", "departmentName": "骨科", "rankInCity": 3, "badge": "北京第3名", "isNationalKey": false, "isCityKey": true },
-      { "id": "hd-006", "departmentName": "神经内科", "rankInCity": 2, "badge": "北京第2名", "isNationalKey": true, "isCityKey": false },
-      { "id": "hd-007", "departmentName": "皮肤科", "rankInCity": 5, "badge": "北京第5名", "isNationalKey": false, "isCityKey": true },
       { "id": "hd-008", "departmentName": "内分泌科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
+      { "id": "hd-002", "departmentName": "呼吸内科", "rankInCity": 2, "badge": "北京第2名", "isNationalKey": true, "isCityKey": false },
+      { "id": "hd-006", "departmentName": "神经内科", "rankInCity": 2, "badge": "北京第2名", "isNationalKey": true, "isCityKey": false },
+      { "id": "hd-005", "departmentName": "骨科", "rankInCity": 3, "badge": "北京第3名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-091", "departmentName": "肾内科", "rankInCity": 4, "badge": "北京第4名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-007", "departmentName": "皮肤科", "rankInCity": 5, "badge": "北京第5名", "isCityKey": true, "isNationalKey": false },
       { "id": "hd-009", "departmentName": "儿科", "rankInCity": 6, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-010", "departmentName": "眼科", "rankInCity": 8, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-091", "departmentName": "肾内科", "rankInCity": 4, "badge": "北京第4名", "isNationalKey": false, "isCityKey": true }
+      { "id": "hd-010", "departmentName": "眼科", "rankInCity": 7, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-094", "departmentName": "泌尿外科", "rankInCity": 8, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-095", "departmentName": "耳鼻喉科", "rankInCity": 9, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-096", "departmentName": "普通外科", "rankInCity": 10, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-097", "departmentName": "血液科", "rankInCity": 11, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-098", "departmentName": "风湿免疫科", "rankInCity": 12, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-099", "departmentName": "口腔科", "rankInCity": 13, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-100", "departmentName": "麻醉科", "rankInCity": 14, "badge": null, "isNationalKey": false, "isCityKey": false }
     ]
   },
   {
@@ -20,15 +27,21 @@
     "departments": [
       { "id": "hd-011", "departmentName": "泌尿外科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
       { "id": "hd-012", "departmentName": "肾脏内科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
-      { "id": "hd-013", "departmentName": "心血管内科", "rankInCity": 3, "badge": "北京第3名", "isNationalKey": false, "isCityKey": true },
-      { "id": "hd-014", "departmentName": "皮肤科", "rankInCity": 4, "badge": "北京第4名", "isNationalKey": false, "isCityKey": true },
-      { "id": "hd-015", "departmentName": "妇产科", "rankInCity": 5, "badge": "北京第5名", "isNationalKey": false, "isCityKey": true },
-      { "id": "hd-016", "departmentName": "骨科", "rankInCity": 7, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-017", "departmentName": "消化内科", "rankInCity": 8, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-018", "departmentName": "内分泌科", "rankInCity": 6, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-019", "departmentName": "神经内科", "rankInCity": 9, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-086", "departmentName": "普通外科", "rankInCity": 10, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-090", "departmentName": "口腔科", "rankInCity": 11, "badge": null, "isNationalKey": false, "isCityKey": false }
+      { "id": "hd-101", "departmentName": "健康管理科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
+      { "id": "hd-102", "departmentName": "生殖医学科", "rankInCity": 2, "badge": "北京第2名", "isNationalKey": true, "isCityKey": false },
+      { "id": "hd-103", "departmentName": "儿科", "rankInCity": 3, "badge": "北京第3名", "isNationalKey": true, "isCityKey": false },
+      { "id": "hd-013", "departmentName": "心血管内科", "rankInCity": 3, "badge": "北京第3名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-104", "departmentName": "康复医学科", "rankInCity": 4, "badge": "北京第4名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-014", "departmentName": "皮肤科", "rankInCity": 4, "badge": "北京第4名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-015", "departmentName": "妇产科", "rankInCity": 5, "badge": "北京第5名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-017", "departmentName": "消化内科", "rankInCity": 6, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-018", "departmentName": "内分泌科", "rankInCity": 7, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-019", "departmentName": "神经内科", "rankInCity": 8, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-016", "departmentName": "骨科", "rankInCity": 9, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-105", "departmentName": "呼吸内科", "rankInCity": 10, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-086", "departmentName": "普通外科", "rankInCity": 11, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-090", "departmentName": "口腔科", "rankInCity": 12, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-106", "departmentName": "眼科", "rankInCity": 13, "badge": null, "isNationalKey": false, "isCityKey": false }
     ]
   },
   {
@@ -37,24 +50,36 @@
       { "id": "hd-020", "departmentName": "心血管内科", "rankInCity": 2, "badge": "北京第2名", "isNationalKey": true, "isCityKey": false },
       { "id": "hd-021", "departmentName": "心脏外科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
       { "id": "hd-022", "departmentName": "血管外科", "rankInCity": 2, "badge": "北京第2名", "isNationalKey": true, "isCityKey": false },
+      { "id": "hd-107", "departmentName": "心胸外科", "rankInCity": 3, "badge": "北京第3名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-025", "departmentName": "医学影像科", "rankInCity": 4, "badge": "北京第4名", "isCityKey": true, "isNationalKey": false },
       { "id": "hd-023", "departmentName": "呼吸内科", "rankInCity": 6, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-024", "departmentName": "内分泌科", "rankInCity": 10, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-025", "departmentName": "医学影像科", "rankInCity": 4, "badge": "北京第4名", "isNationalKey": false, "isCityKey": true },
-      { "id": "hd-026", "departmentName": "急诊科", "rankInCity": 7, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-087", "departmentName": "甲状腺外科", "rankInCity": 6, "badge": null, "isNationalKey": false, "isCityKey": false }
+      { "id": "hd-024", "departmentName": "内分泌科", "rankInCity": 7, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-026", "departmentName": "急诊科", "rankInCity": 8, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-087", "departmentName": "甲状腺外科", "rankInCity": 9, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-108", "departmentName": "神经内科", "rankInCity": 10, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-109", "departmentName": "骨科", "rankInCity": 11, "badge": null, "isNationalKey": false, "isCityKey": false }
     ]
   },
   {
     "hospitalId": "hosp-04",
     "departments": [
       { "id": "hd-027", "departmentName": "运动医学科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
-      { "id": "hd-028", "departmentName": "妇产科", "rankInCity": 2, "badge": "北京第2名", "isNationalKey": true, "isCityKey": false },
+      { "id": "hd-028", "departmentName": "妇产科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
       { "id": "hd-029", "departmentName": "骨科", "rankInCity": 2, "badge": "北京第2名", "isNationalKey": true, "isCityKey": false },
-      { "id": "hd-030", "departmentName": "消化内科", "rankInCity": 3, "badge": "北京第3名", "isNationalKey": false, "isCityKey": true },
-      { "id": "hd-031", "departmentName": "心血管内科", "rankInCity": 5, "badge": "北京第5名", "isNationalKey": false, "isCityKey": true },
+      { "id": "hd-033", "departmentName": "呼吸内科", "rankInCity": 2, "badge": "北京第2名", "isNationalKey": true, "isCityKey": false },
+      { "id": "hd-110", "departmentName": "神经内科", "rankInCity": 3, "badge": "北京第3名", "isNationalKey": true, "isCityKey": false },
+      { "id": "hd-113", "departmentName": "产科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
+      { "id": "hd-114", "departmentName": "麻醉科", "rankInCity": 3, "badge": "北京第3名", "isNationalKey": true, "isCityKey": false },
+      { "id": "hd-030", "departmentName": "消化内科", "rankInCity": 3, "badge": "北京第3名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-111", "departmentName": "神经外科", "rankInCity": 4, "badge": "北京第4名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-112", "departmentName": "生殖医学科", "rankInCity": 4, "badge": "北京第4名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-031", "departmentName": "心血管内科", "rankInCity": 5, "badge": "北京第5名", "isCityKey": true, "isNationalKey": false },
       { "id": "hd-032", "departmentName": "眼科", "rankInCity": 6, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-033", "departmentName": "呼吸内科", "rankInCity": 8, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-034", "departmentName": "内分泌科", "rankInCity": 7, "badge": null, "isNationalKey": false, "isCityKey": false }
+      { "id": "hd-034", "departmentName": "内分泌科", "rankInCity": 7, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-115", "departmentName": "皮肤科", "rankInCity": 8, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-116", "departmentName": "普通外科", "rankInCity": 9, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-117", "departmentName": "耳鼻喉科", "rankInCity": 10, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-118", "departmentName": "泌尿外科", "rankInCity": 11, "badge": null, "isNationalKey": false, "isCityKey": false }
     ]
   },
   {
@@ -62,36 +87,49 @@
     "departments": [
       { "id": "hd-035", "departmentName": "神经内科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
       { "id": "hd-036", "departmentName": "神经外科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
-      { "id": "hd-037", "departmentName": "心血管内科", "rankInCity": 4, "badge": "北京第4名", "isNationalKey": false, "isCityKey": true },
-      { "id": "hd-038", "departmentName": "医学影像科", "rankInCity": 3, "badge": "北京第3名", "isNationalKey": false, "isCityKey": true },
-      { "id": "hd-039", "departmentName": "内分泌科", "rankInCity": 9, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-040", "departmentName": "呼吸内科", "rankInCity": 11, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-041", "departmentName": "急诊科", "rankInCity": 5, "badge": "北京第5名", "isNationalKey": false, "isCityKey": true }
+      { "id": "hd-119", "departmentName": "全科医学科", "rankInCity": 2, "badge": "北京第2名", "isNationalKey": true, "isCityKey": false },
+      { "id": "hd-037", "departmentName": "心血管内科", "rankInCity": 4, "badge": "北京第4名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-038", "departmentName": "医学影像科", "rankInCity": 3, "badge": "北京第3名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-041", "departmentName": "急诊科", "rankInCity": 5, "badge": "北京第5名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-039", "departmentName": "内分泌科", "rankInCity": 6, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-040", "departmentName": "呼吸内科", "rankInCity": 7, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-120", "departmentName": "普通外科", "rankInCity": 8, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-121", "departmentName": "消化内科", "rankInCity": 9, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-122", "departmentName": "泌尿外科", "rankInCity": 10, "badge": null, "isNationalKey": false, "isCityKey": false }
     ]
   },
   {
     "hospitalId": "hosp-06",
     "departments": [
-      { "id": "hd-042", "departmentName": "呼吸内科", "rankInCity": 3, "badge": "北京第3名", "isNationalKey": false, "isCityKey": true },
       { "id": "hd-043", "departmentName": "急诊科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
-      { "id": "hd-044", "departmentName": "心血管内科", "rankInCity": 6, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-045", "departmentName": "消化内科", "rankInCity": 7, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-046", "departmentName": "骨科", "rankInCity": 5, "badge": "北京第5名", "isNationalKey": false, "isCityKey": true },
-      { "id": "hd-047", "departmentName": "内分泌科", "rankInCity": 8, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-048", "departmentName": "皮肤科", "rankInCity": 12, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-088", "departmentName": "眼科", "rankInCity": 11, "badge": null, "isNationalKey": false, "isCityKey": false }
+      { "id": "hd-044", "departmentName": "心血管内科", "rankInCity": 2, "badge": "北京第2名", "isNationalKey": true, "isCityKey": false },
+      { "id": "hd-042", "departmentName": "呼吸内科", "rankInCity": 3, "badge": "北京第3名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-123", "departmentName": "胸外科", "rankInCity": 4, "badge": "北京第4名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-046", "departmentName": "骨科", "rankInCity": 5, "badge": "北京第5名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-045", "departmentName": "消化内科", "rankInCity": 6, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-047", "departmentName": "内分泌科", "rankInCity": 7, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-088", "departmentName": "眼科", "rankInCity": 8, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-048", "departmentName": "皮肤科", "rankInCity": 9, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-124", "departmentName": "神经内科", "rankInCity": 10, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-125", "departmentName": "泌尿外科", "rankInCity": 11, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-126", "departmentName": "普通外科", "rankInCity": 12, "badge": null, "isNationalKey": false, "isCityKey": false }
     ]
   },
   {
     "hospitalId": "hosp-07",
     "departments": [
-      { "id": "hd-049", "departmentName": "消化内科", "rankInCity": 2, "badge": "北京第2名", "isNationalKey": true, "isCityKey": false },
+      { "id": "hd-049", "departmentName": "消化内科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
       { "id": "hd-050", "departmentName": "肝胆外科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
-      { "id": "hd-051", "departmentName": "泌尿外科", "rankInCity": 5, "badge": "北京第5名", "isNationalKey": false, "isCityKey": true },
-      { "id": "hd-052", "departmentName": "心血管内科", "rankInCity": 8, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-053", "departmentName": "呼吸内科", "rankInCity": 10, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-054", "departmentName": "骨科", "rankInCity": 12, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-055", "departmentName": "神经内科", "rankInCity": 11, "badge": null, "isNationalKey": false, "isCityKey": false }
+      { "id": "hd-051", "departmentName": "泌尿中心", "rankInCity": 2, "badge": "北京第2名", "isNationalKey": true, "isCityKey": true },
+      { "id": "hd-127", "departmentName": "血液科", "rankInCity": 4, "badge": "北京第4名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-052", "departmentName": "心血管内科", "rankInCity": 6, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-053", "departmentName": "呼吸内科", "rankInCity": 7, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-128", "departmentName": "内分泌科", "rankInCity": 8, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-055", "departmentName": "神经内科", "rankInCity": 9, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-054", "departmentName": "骨科", "rankInCity": 10, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-129", "departmentName": "普通外科", "rankInCity": 11, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-130", "departmentName": "皮肤科", "rankInCity": 12, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-131", "departmentName": "眼科", "rankInCity": 13, "badge": null, "isNationalKey": false, "isCityKey": false }
     ]
   },
   {
@@ -99,17 +137,45 @@
     "departments": [
       { "id": "hd-056", "departmentName": "骨科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
       { "id": "hd-057", "departmentName": "烧伤科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
-      { "id": "hd-058", "departmentName": "运动医学科", "rankInCity": 2, "badge": "北京第2名", "isNationalKey": true, "isCityKey": false },
       { "id": "hd-059", "departmentName": "手外科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
+      { "id": "hd-058", "departmentName": "运动医学科", "rankInCity": 2, "badge": "北京第2名", "isNationalKey": true, "isCityKey": false },
       { "id": "hd-060", "departmentName": "脊柱外科", "rankInCity": 2, "badge": "北京第2名", "isNationalKey": true, "isCityKey": false },
+      { "id": "hd-132", "departmentName": "心血管内科", "rankInCity": 3, "badge": "北京第3名", "isNationalKey": true, "isCityKey": false },
+      { "id": "hd-133", "departmentName": "护理学科", "rankInCity": 4, "badge": "北京第4名", "isCityKey": true, "isNationalKey": false },
       { "id": "hd-061", "departmentName": "血管外科", "rankInCity": 6, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-062", "departmentName": "内分泌科", "rankInCity": 12, "badge": null, "isNationalKey": false, "isCityKey": false }
+      { "id": "hd-134", "departmentName": "呼吸内科", "rankInCity": 7, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-062", "departmentName": "内分泌科", "rankInCity": 8, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-135", "departmentName": "消化内科", "rankInCity": 9, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-136", "departmentName": "神经内科", "rankInCity": 10, "badge": null, "isNationalKey": false, "isCityKey": false }
     ]
   },
   {
     "hospitalId": "hosp-09",
     "departments": [
-      { "id": "hd-093", "departmentName": "产科", "rankInCity": 2, "badge": "北京第2名", "isNationalKey": false, "isCityKey": true }
+      { "id": "hd-093", "departmentName": "产科", "rankInCity": 2, "badge": "北京第2名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-137", "departmentName": "妇科", "rankInCity": 1, "badge": "北京第1名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-138", "departmentName": "生殖医学科", "rankInCity": 3, "badge": "北京第3名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-139", "departmentName": "妇产科", "rankInCity": 6, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-140", "departmentName": "计划生育科", "rankInCity": 7, "badge": null, "isNationalKey": false, "isCityKey": false }
+    ]
+  },
+  {
+    "hospitalId": "hosp-10",
+    "departments": [
+      { "id": "hd-141", "departmentName": "内分泌科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
+      { "id": "hd-142", "departmentName": "消化内科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
+      { "id": "hd-143", "departmentName": "普通外科", "rankInCity": 2, "badge": "北京第2名", "isNationalKey": true, "isCityKey": false },
+      { "id": "hd-144", "departmentName": "心血管内科", "rankInCity": 3, "badge": "北京第3名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-145", "departmentName": "骨科", "rankInCity": 3, "badge": "北京第3名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-146", "departmentName": "血液科", "rankInCity": 4, "badge": "北京第4名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-147", "departmentName": "妇产科", "rankInCity": 5, "badge": "北京第5名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-148", "departmentName": "呼吸内科", "rankInCity": 6, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-149", "departmentName": "神经内科", "rankInCity": 7, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-150", "departmentName": "泌尿外科", "rankInCity": 8, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-151", "departmentName": "眼科", "rankInCity": 9, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-152", "departmentName": "皮肤科", "rankInCity": 10, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-153", "departmentName": "耳鼻喉科", "rankInCity": 11, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-154", "departmentName": "风湿免疫科", "rankInCity": 12, "badge": null, "isNationalKey": false, "isCityKey": false }
     ]
   },
   {
@@ -120,23 +186,28 @@
       { "id": "hd-065", "departmentName": "小儿外科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
       { "id": "hd-066", "departmentName": "新生儿科", "rankInCity": 2, "badge": "北京第2名", "isNationalKey": true, "isCityKey": false },
       { "id": "hd-067", "departmentName": "儿童保健科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
-      { "id": "hd-068", "departmentName": "耳鼻喉科", "rankInCity": 7, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-069", "departmentName": "皮肤科", "rankInCity": 9, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-089", "departmentName": "眼科", "rankInCity": 12, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-092", "departmentName": "小儿心脏科", "rankInCity": 4, "badge": "北京第4名", "isNationalKey": false, "isCityKey": true }
+      { "id": "hd-092", "departmentName": "小儿心脏科", "rankInCity": 4, "badge": "北京第4名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-155", "departmentName": "儿童神经科", "rankInCity": 5, "badge": "北京第5名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-068", "departmentName": "耳鼻喉科", "rankInCity": 6, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-069", "departmentName": "皮肤科", "rankInCity": 7, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-089", "departmentName": "眼科", "rankInCity": 8, "badge": null, "isNationalKey": false, "isCityKey": false }
     ]
   },
   {
     "hospitalId": "hosp-12",
     "departments": [
-      { "id": "hd-070", "departmentName": "神经内科", "rankInCity": 3, "badge": "北京第3名", "isNationalKey": false, "isCityKey": true },
-      { "id": "hd-071", "departmentName": "神经外科", "rankInCity": 2, "badge": "北京第2名", "isNationalKey": true, "isCityKey": false },
-      { "id": "hd-072", "departmentName": "老年病科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
-      { "id": "hd-073", "departmentName": "心血管内科", "rankInCity": 7, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-074", "departmentName": "消化内科", "rankInCity": 9, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-075", "departmentName": "呼吸内科", "rankInCity": 5, "badge": "北京第5名", "isNationalKey": false, "isCityKey": true },
-      { "id": "hd-076", "departmentName": "骨科", "rankInCity": 10, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-077", "departmentName": "眼科", "rankInCity": 4, "badge": "北京第4名", "isNationalKey": false, "isCityKey": true }
+      { "id": "hd-071", "departmentName": "神经外科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
+      { "id": "hd-072", "departmentName": "老年医学科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
+      { "id": "hd-070", "departmentName": "神经内科", "rankInCity": 3, "badge": "北京第3名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-077", "departmentName": "眼科", "rankInCity": 4, "badge": "北京第4名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-075", "departmentName": "呼吸内科", "rankInCity": 5, "badge": "北京第5名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-073", "departmentName": "心血管内科", "rankInCity": 6, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-074", "departmentName": "消化内科", "rankInCity": 7, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-076", "departmentName": "骨科", "rankInCity": 8, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-156", "departmentName": "内分泌科", "rankInCity": 9, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-157", "departmentName": "泌尿外科", "rankInCity": 10, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-158", "departmentName": "皮肤科", "rankInCity": 11, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-159", "departmentName": "康复医学科", "rankInCity": 12, "badge": null, "isNationalKey": false, "isCityKey": false }
     ]
   },
   {
@@ -146,10 +217,74 @@
       { "id": "hd-079", "departmentName": "肿瘤外科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
       { "id": "hd-080", "departmentName": "放疗科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
       { "id": "hd-081", "departmentName": "病理科", "rankInCity": 2, "badge": "北京第2名", "isNationalKey": true, "isCityKey": false },
-      { "id": "hd-082", "departmentName": "胸外科", "rankInCity": 3, "badge": "北京第3名", "isNationalKey": false, "isCityKey": true },
-      { "id": "hd-083", "departmentName": "消化内科", "rankInCity": 11, "badge": null, "isNationalKey": false, "isCityKey": false },
-      { "id": "hd-084", "departmentName": "医学影像科", "rankInCity": 5, "badge": "北京第5名", "isNationalKey": false, "isCityKey": true },
-      { "id": "hd-085", "departmentName": "麻醉科", "rankInCity": 6, "badge": null, "isNationalKey": false, "isCityKey": false }
+      { "id": "hd-082", "departmentName": "胸外科", "rankInCity": 3, "badge": "北京第3名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-084", "departmentName": "医学影像科", "rankInCity": 5, "badge": "北京第5名", "isCityKey": true, "isNationalKey": false },
+      { "id": "hd-083", "departmentName": "消化内科", "rankInCity": 6, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-085", "departmentName": "麻醉科", "rankInCity": 7, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-160", "departmentName": "妇科肿瘤科", "rankInCity": 8, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-161", "departmentName": "头颈外科", "rankInCity": 9, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-162", "departmentName": "中西医结合科", "rankInCity": 10, "badge": null, "isNationalKey": false, "isCityKey": false }
+    ]
+  },
+  {
+    "hospitalId": "hosp-14",
+    "departments": [
+      { "id": "hd-163", "departmentName": "肿瘤内科", "rankInCity": 6, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-164", "departmentName": "肿瘤外科", "rankInCity": 6, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-165", "departmentName": "放疗科", "rankInCity": 7, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-166", "departmentName": "消化肿瘤科", "rankInCity": 6, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-167", "departmentName": "乳腺肿瘤科", "rankInCity": 6, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-168", "departmentName": "病理科", "rankInCity": 7, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-169", "departmentName": "医学影像科", "rankInCity": 8, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-170", "departmentName": "胸部肿瘤科", "rankInCity": 7, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-171", "departmentName": "妇科肿瘤科", "rankInCity": 8, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-172", "departmentName": "头颈外科", "rankInCity": 9, "badge": null, "isNationalKey": false, "isCityKey": false }
+    ]
+  },
+  {
+    "hospitalId": "hosp-15",
+    "departments": [
+      { "id": "hd-173", "departmentName": "中医内科", "rankInCity": 6, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-174", "departmentName": "针灸科", "rankInCity": 6, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-175", "departmentName": "推拿科", "rankInCity": 7, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-176", "departmentName": "中医妇科", "rankInCity": 7, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-177", "departmentName": "中医儿科", "rankInCity": 8, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-178", "departmentName": "中医皮肤科", "rankInCity": 8, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-179", "departmentName": "中医骨科", "rankInCity": 9, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-180", "departmentName": "心血管内科", "rankInCity": 10, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-181", "departmentName": "消化内科", "rankInCity": 10, "badge": null, "isNationalKey": false, "isCityKey": false }
+    ]
+  },
+  {
+    "hospitalId": "hosp-16",
+    "departments": [
+      { "id": "hd-182", "departmentName": "胸外科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
+      { "id": "hd-183", "departmentName": "呼吸内科", "rankInCity": 6, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-184", "departmentName": "心血管内科", "rankInCity": 7, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-185", "departmentName": "消化内科", "rankInCity": 8, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-186", "departmentName": "内分泌科", "rankInCity": 6, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-187", "departmentName": "骨科", "rankInCity": 9, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-188", "departmentName": "神经内科", "rankInCity": 10, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-189", "departmentName": "泌尿外科", "rankInCity": 11, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-190", "departmentName": "皮肤科", "rankInCity": 12, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-191", "departmentName": "眼科", "rankInCity": 13, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-192", "departmentName": "妇产科", "rankInCity": 14, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-193", "departmentName": "耳鼻喉科", "rankInCity": 15, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-194", "departmentName": "口腔科", "rankInCity": 16, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-195", "departmentName": "风湿免疫科", "rankInCity": 17, "badge": null, "isNationalKey": false, "isCityKey": false }
+    ]
+  },
+  {
+    "hospitalId": "hosp-17",
+    "departments": [
+      { "id": "hd-196", "departmentName": "心血管内科", "rankInCity": 1, "badge": "北京第1名", "isNationalKey": true, "isCityKey": false },
+      { "id": "hd-197", "departmentName": "感染科", "rankInCity": 6, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-198", "departmentName": "肝病科", "rankInCity": 6, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-199", "departmentName": "消化内科", "rankInCity": 7, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-200", "departmentName": "呼吸内科", "rankInCity": 8, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-201", "departmentName": "内分泌科", "rankInCity": 9, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-202", "departmentName": "中西医结合科", "rankInCity": 10, "badge": null, "isNationalKey": false, "isCityKey": false },
+      { "id": "hd-203", "departmentName": "急诊科", "rankInCity": 11, "badge": null, "isNationalKey": false, "isCityKey": false }
     ]
   }
 ]
