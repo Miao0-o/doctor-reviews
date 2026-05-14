@@ -1,0 +1,122 @@
+[
+  {
+    "diseaseId": "dis-01",
+    "rankings": [
+      { "hospitalId": "hosp-01", "score": 98.5, "rank": 1 },
+      { "hospitalId": "hosp-03", "score": 96.2, "rank": 2 },
+      { "hospitalId": "hosp-05", "score": 94.8, "rank": 3 },
+      { "hospitalId": "hosp-12", "score": 93.1, "rank": 4 },
+      { "hospitalId": "hosp-02", "score": 92.0, "rank": 5 },
+      { "hospitalId": "hosp-07", "score": 90.5, "rank": 6 },
+      { "hospitalId": "hosp-06", "score": 89.3, "rank": 7 },
+      { "hospitalId": "hosp-10", "score": 88.1, "rank": 8 },
+      { "hospitalId": "hosp-04", "score": 87.0, "rank": 9 },
+      { "hospitalId": "hosp-08", "score": 85.8, "rank": 10 }
+    ]
+  },
+  {
+    "diseaseId": "dis-02",
+    "rankings": [
+      { "hospitalId": "hosp-02", "score": 97.3, "rank": 1 },
+      { "hospitalId": "hosp-01", "score": 95.1, "rank": 2 },
+      { "hospitalId": "hosp-06", "score": 92.7, "rank": 3 },
+      { "hospitalId": "hosp-04", "score": 91.5, "rank": 4 },
+      { "hospitalId": "hosp-12", "score": 90.2, "rank": 5 },
+      { "hospitalId": "hosp-10", "score": 88.9, "rank": 6 },
+      { "hospitalId": "hosp-07", "score": 87.4, "rank": 7 },
+      { "hospitalId": "hosp-05", "score": 86.1, "rank": 8 },
+      { "hospitalId": "hosp-08", "score": 84.8, "rank": 9 },
+      { "hospitalId": "hosp-15", "score": 83.2, "rank": 10 }
+    ]
+  },
+  {
+    "diseaseId": "dis-03",
+    "rankings": [
+      { "hospitalId": "hosp-01", "score": 96.8, "rank": 1 },
+      { "hospitalId": "hosp-04", "score": 94.5, "rank": 2 },
+      { "hospitalId": "hosp-07", "score": 91.3, "rank": 3 },
+      { "hospitalId": "hosp-02", "score": 90.1, "rank": 4 },
+      { "hospitalId": "hosp-10", "score": 88.7, "rank": 5 },
+      { "hospitalId": "hosp-06", "score": 87.2, "rank": 6 },
+      { "hospitalId": "hosp-12", "score": 85.9, "rank": 7 },
+      { "hospitalId": "hosp-15", "score": 84.3, "rank": 8 },
+      { "hospitalId": "hosp-08", "score": 83.0, "rank": 9 },
+      { "hospitalId": "hosp-03", "score": 81.6, "rank": 10 }
+    ]
+  },
+  {
+    "diseaseId": "dis-04",
+    "rankings": [
+      { "hospitalId": "hosp-08", "score": 97.1, "rank": 1 },
+      { "hospitalId": "hosp-01", "score": 95.6, "rank": 2 },
+      { "hospitalId": "hosp-10", "score": 93.4, "rank": 3 },
+      { "hospitalId": "hosp-04", "score": 92.0, "rank": 4 },
+      { "hospitalId": "hosp-02", "score": 90.5, "rank": 5 },
+      { "hospitalId": "hosp-06", "score": 88.3, "rank": 6 },
+      { "hospitalId": "hosp-12", "score": 87.1, "rank": 7 },
+      { "hospitalId": "hosp-07", "score": 85.6, "rank": 8 },
+      { "hospitalId": "hosp-03", "score": 84.2, "rank": 9 },
+      { "hospitalId": "hosp-15", "score": 82.8, "rank": 10 }
+    ]
+  },
+  {
+    "diseaseId": "dis-05",
+    "rankings": [
+      { "hospitalId": "hosp-01", "score": 97.9, "rank": 1 },
+      { "hospitalId": "hosp-11", "score": 95.3, "rank": 2 },
+      { "hospitalId": "hosp-09", "score": 93.1, "rank": 3 },
+      { "hospitalId": "hosp-02", "score": 91.8, "rank": 4 },
+      { "hospitalId": "hosp-04", "score": 90.4, "rank": 5 },
+      { "hospitalId": "hosp-10", "score": 88.9, "rank": 6 },
+      { "hospitalId": "hosp-06", "score": 87.5, "rank": 7 },
+      { "hospitalId": "hosp-07", "score": 86.0, "rank": 8 },
+      { "hospitalId": "hosp-12", "score": 84.7, "rank": 9 },
+      { "hospitalId": "hosp-15", "score": 83.1, "rank": 10 }
+    ]
+  },
+  {
+    "diseaseId": "dis-06",
+    "rankings": [
+      { "hospitalId": "hosp-12", "score": 98.2, "rank": 1 },
+      { "hospitalId": "hosp-01", "score": 96.7, "rank": 2 },
+      { "hospitalId": "hosp-03", "score": 94.0, "rank": 3 },
+      { "hospitalId": "hosp-05", "score": 92.5, "rank": 4 },
+      { "hospitalId": "hosp-02", "score": 91.2, "rank": 5 },
+      { "hospitalId": "hosp-10", "score": 89.8, "rank": 6 },
+      { "hospitalId": "hosp-04", "score": 88.3, "rank": 7 },
+      { "hospitalId": "hosp-07", "score": 86.9, "rank": 8 },
+      { "hospitalId": "hosp-06", "score": 85.4, "rank": 9 },
+      { "hospitalId": "hosp-15", "score": 83.7, "rank": 10 }
+    ]
+  },
+  {
+    "diseaseId": "dis-07",
+    "rankings": [
+      { "hospitalId": "hosp-13", "score": 98.8, "rank": 1 },
+      { "hospitalId": "hosp-01", "score": 97.2, "rank": 2 },
+      { "hospitalId": "hosp-14", "score": 95.5, "rank": 3 },
+      { "hospitalId": "hosp-02", "score": 94.1, "rank": 4 },
+      { "hospitalId": "hosp-04", "score": 92.8, "rank": 5 },
+      { "hospitalId": "hosp-10", "score": 91.3, "rank": 6 },
+      { "hospitalId": "hosp-12", "score": 89.7, "rank": 7 },
+      { "hospitalId": "hosp-06", "score": 88.2, "rank": 8 },
+      { "hospitalId": "hosp-07", "score": 86.5, "rank": 9 },
+      { "hospitalId": "hosp-15", "score": 84.9, "rank": 10 }
+    ]
+  },
+  {
+    "diseaseId": "dis-08",
+    "rankings": [
+      { "hospitalId": "hosp-01", "score": 97.6, "rank": 1 },
+      { "hospitalId": "hosp-02", "score": 95.4, "rank": 2 },
+      { "hospitalId": "hosp-15", "score": 92.9, "rank": 3 },
+      { "hospitalId": "hosp-04", "score": 91.7, "rank": 4 },
+      { "hospitalId": "hosp-06", "score": 90.3, "rank": 5 },
+      { "hospitalId": "hosp-10", "score": 88.8, "rank": 6 },
+      { "hospitalId": "hosp-07", "score": 87.4, "rank": 7 },
+      { "hospitalId": "hosp-12", "score": 86.0, "rank": 8 },
+      { "hospitalId": "hosp-03", "score": 84.5, "rank": 9 },
+      { "hospitalId": "hosp-08", "score": 83.1, "rank": 10 }
+    ]
+  }
+]
