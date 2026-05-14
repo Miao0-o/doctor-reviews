@@ -61,6 +61,22 @@
         "navigationBarBackgroundColor": "#F6FAF8",
         "navigationBarTextStyle": "black"
       }
+    },
+    {
+      "path": "pages/hospital-ranking/hospital-ranking",
+      "style": {
+        "navigationBarTitleText": "医院排名",
+        "navigationBarBackgroundColor": "#F6FAF8",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/hospital-department/hospital-department",
+      "style": {
+        "navigationBarTitleText": "科室列表",
+        "navigationBarBackgroundColor": "#F6FAF8",
+        "navigationBarTextStyle": "black"
+      }
     }
   ],
   "tabBar": {
