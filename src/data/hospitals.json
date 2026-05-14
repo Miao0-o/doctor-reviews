@@ -1,0 +1,17 @@
+[
+  { "id": "hosp-01", "name": "北京协和医院", "level": "三级甲等", "type": "综合医院", "overallScore": 97.2 },
+  { "id": "hosp-02", "name": "北京大学第一医院", "level": "三级甲等", "type": "综合医院", "overallScore": 95.8 },
+  { "id": "hosp-03", "name": "北京安贞医院", "level": "三级甲等", "type": "专科医院", "overallScore": 94.5 },
+  { "id": "hosp-04", "name": "北京大学第三医院", "level": "三级甲等", "type": "综合医院", "overallScore": 93.7 },
+  { "id": "hosp-05", "name": "北京天坛医院", "level": "三级甲等", "type": "专科医院", "overallScore": 95.1 },
+  { "id": "hosp-06", "name": "北京朝阳医院", "level": "三级甲等", "type": "综合医院", "overallScore": 91.3 },
+  { "id": "hosp-07", "name": "北京友谊医院", "level": "三级甲等", "type": "综合医院", "overallScore": 90.6 },
+  { "id": "hosp-08", "name": "北京积水潭医院", "level": "三级甲等", "type": "专科医院", "overallScore": 93.2 },
+  { "id": "hosp-09", "name": "北京妇产医院", "level": "三级甲等", "type": "专科医院", "overallScore": 91.8 },
+  { "id": "hosp-10", "name": "北京大学人民医院", "level": "三级甲等", "type": "综合医院", "overallScore": 92.4 },
+  { "id": "hosp-11", "name": "北京儿童医院", "level": "三级甲等", "type": "专科医院", "overallScore": 93.9 },
+  { "id": "hosp-12", "name": "首都医科大学宣武医院", "level": "三级甲等", "type": "综合医院", "overallScore": 94.1 },
+  { "id": "hosp-13", "name": "中国医学科学院肿瘤医院", "level": "三级甲等", "type": "专科医院", "overallScore": 96.5 },
+  { "id": "hosp-14", "name": "北京大学肿瘤医院", "level": "三级甲等", "type": "专科医院", "overallScore": 94.3 },
+  { "id": "hosp-15", "name": "北京中医药大学东直门医院", "level": "三级甲等", "type": "综合医院", "overallScore": 89.7 }
+]

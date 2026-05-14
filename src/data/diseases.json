@@ -1,0 +1,82 @@
+[
+  {
+    "id": "dis-01",
+    "name": "心脑血管",
+    "icon": "❤",
+    "topHospitals": [
+      { "hospitalId": "hosp-01", "reputationScore": 98.5 },
+      { "hospitalId": "hosp-03", "reputationScore": 96.2 },
+      { "hospitalId": "hosp-05", "reputationScore": 94.8 }
+    ]
+  },
+  {
+    "id": "dis-02",
+    "name": "呼吸系统",
+    "icon": "🫁",
+    "topHospitals": [
+      { "hospitalId": "hosp-02", "reputationScore": 97.3 },
+      { "hospitalId": "hosp-01", "reputationScore": 95.1 },
+      { "hospitalId": "hosp-06", "reputationScore": 92.7 }
+    ]
+  },
+  {
+    "id": "dis-03",
+    "name": "消化系统",
+    "icon": "🍽",
+    "topHospitals": [
+      { "hospitalId": "hosp-01", "reputationScore": 96.8 },
+      { "hospitalId": "hosp-04", "reputationScore": 94.5 },
+      { "hospitalId": "hosp-07", "reputationScore": 91.3 }
+    ]
+  },
+  {
+    "id": "dis-04",
+    "name": "骨科关节",
+    "icon": "🦴",
+    "topHospitals": [
+      { "hospitalId": "hosp-08", "reputationScore": 97.1 },
+      { "hospitalId": "hosp-01", "reputationScore": 95.6 },
+      { "hospitalId": "hosp-10", "reputationScore": 93.4 }
+    ]
+  },
+  {
+    "id": "dis-05",
+    "name": "妇产儿科",
+    "icon": "👶",
+    "topHospitals": [
+      { "hospitalId": "hosp-01", "reputationScore": 97.9 },
+      { "hospitalId": "hosp-11", "reputationScore": 95.3 },
+      { "hospitalId": "hosp-09", "reputationScore": 93.1 }
+    ]
+  },
+  {
+    "id": "dis-06",
+    "name": "神经系统",
+    "icon": "🧠",
+    "topHospitals": [
+      { "hospitalId": "hosp-12", "reputationScore": 98.2 },
+      { "hospitalId": "hosp-01", "reputationScore": 96.7 },
+      { "hospitalId": "hosp-03", "reputationScore": 94.0 }
+    ]
+  },
+  {
+    "id": "dis-07",
+    "name": "肿瘤",
+    "icon": "🎗",
+    "topHospitals": [
+      { "hospitalId": "hosp-13", "reputationScore": 98.8 },
+      { "hospitalId": "hosp-01", "reputationScore": 97.2 },
+      { "hospitalId": "hosp-14", "reputationScore": 95.5 }
+    ]
+  },
+  {
+    "id": "dis-08",
+    "name": "内分泌",
+    "icon": "💊",
+    "topHospitals": [
+      { "hospitalId": "hosp-01", "reputationScore": 97.6 },
+      { "hospitalId": "hosp-02", "reputationScore": 95.4 },
+      { "hospitalId": "hosp-15", "reputationScore": 92.9 }
+    ]
+  }
+]
