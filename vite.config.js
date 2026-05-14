@@ -6,7 +6,8 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        additionalData: ''
+        additionalData: '',
+        silenceDeprecations: ['legacy-js-api', 'import']
       }
     }
   }

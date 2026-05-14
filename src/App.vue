@@ -7,7 +7,7 @@ onLaunch(() => {
 </script>
 
 <style lang="scss">
-@import '@/uni.scss';
+/* uni.scss is auto-injected by the uni-app build toolchain */
 
 page {
   background-color: $bg-page;
