@@ -10,7 +10,8 @@
         <text class="name">{{ doctor.name }}</text>
         <text class="title">{{ doctor.title }}</text>
       </view>
-      <text class="hospital">{{ doctor.hospital }}</text>
+      <text class="hospital">{{ hospitalName }}</text>
+      <text class="department" v-if="showDepartment && departmentName">{{ departmentName }}</text>
       <view class="tags" v-if="doctor.tags && doctor.tags.length">
         <c-TagPill v-for="tag in doctor.tags.slice(0, 3)" :key="tag" :label="tag" />
       </view>
@@ -24,10 +25,39 @@
 </template>
 
 <script setup>
-defineProps({
-  doctor: { type: Object, required: true }
+import { computed } from 'vue'
+import hospitals from '@/data/hospitals.json'
+import hospitalDepartments from '@/data/hospital-departments.json'
+
+const props = defineProps({
+  doctor: { type: Object, required: true },
+  showDepartment: { type: Boolean, default: false }
 })
+
 defineEmits(['tap'])
+
+// Build lookup maps
+const hospitalMap = {}
+hospitals.forEach(h => {
+  hospitalMap[h.id] = h.name
+})
+
+const departmentMap = {}
+hospitalDepartments.forEach(hd => {
+  hd.departments.forEach(dept => {
+    departmentMap[`${hd.hospitalId}|${dept.id}`] = dept.departmentName
+  })
+})
+
+const hospitalName = computed(() => {
+  return hospitalMap[props.doctor.hospitalId] || '未知医院'
+})
+
+const departmentName = computed(() => {
+  if (!props.doctor.hospitalId || !props.doctor.hospitalDepartmentId) return ''
+  const key = `${props.doctor.hospitalId}|${props.doctor.hospitalDepartmentId}`
+  return departmentMap[key] || ''
+})
 </script>
 
 <style lang="scss" scoped>
@@ -80,6 +110,11 @@ defineEmits(['tap'])
 .hospital {
   font-size: $font-sm;
   color: $text-secondary;
+  margin-bottom: 2rpx;
+}
+.department {
+  font-size: $font-xs;
+  color: rgba(122, 132, 128, 0.7);
   margin-bottom: 8rpx;
 }
 .tags {
